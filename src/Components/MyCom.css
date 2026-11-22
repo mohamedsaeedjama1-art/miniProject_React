@@ -1,0 +1,55 @@
+.section{
+  height: 43.4rem;
+  background-color: red;
+  width: 15rem;
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding: 25px;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.section * {
+  color: white;
+  border: 1px solid black;
+  height: 2rem;
+  text-align: center;
+  background-color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: ease 0.2s;
+}
+
+.section *:hover{
+background-color: blue;
+}
+
+/* h3{
+    background-color: blue;
+    width: 15rem;
+    padding: 25px;
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+#Last{
+ 
+  width: 290px;
+  background-color: red;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  
+}
+
+
+
+
+

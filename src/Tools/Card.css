@@ -1,0 +1,23 @@
+
+
+.Card{
+    border: 1px solid Black;
+    width: 17rem;
+    height: 10rem;
+    position: relative;
+    left: 25rem;
+    bottom: 45rem;
+    background-color: rgb(250, 235, 215);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px ;
+
+  
+}
+
+#header{
+    color: black;
+    position: relative;
+    left: 40rem;
+    bottom: 47rem;
+}

@@ -1,0 +1,250 @@
+.Upcoming{
+     border: 1px solid Black;
+    width: 17rem;
+    height: 10rem;
+    position: relative;
+    left: 25rem;
+    bottom: 45rem;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px ;
+margin-top: 40px;
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 4px;
+ 
+}
+
+#h1{
+    color: black;
+    position: relative;
+    left: 40rem;
+    bottom: 47rem;
+}
+
+.inputs{
+    position: relative;
+    left: 27rem;
+    bottom: 38rem;
+    border: 1px solid black;
+    padding: 20px;
+ display: flex;
+ gap: 10px;
+ background-color: hwb(34 84% 2%);
+ width: 30rem;
+ border-radius: 5px;
+
+}
+
+
+
+
+
+/* Table */
+
+  table {
+    border-collapse: collapse;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    left: 30rem;
+    bottom: 35rem;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px 16px;
+    text-align: center;
+  }
+
+  th {
+    background:  hwb(34 84% 2%);;
+    color: black;
+    font-size: 16px;
+  }
+
+  td {
+    font-size: 15px;
+    color: #333;
+  }
+
+  tr:nth-child(even) td {
+    background: #f9f9f9;
+    
+  }
+
+
+
+
+  /* Inputs2 */
+
+
+
+  .inputs2{
+    position: relative;
+    left: 30rem;
+    bottom: 44rem;
+    border: 1px solid black;
+    padding: 20px;
+ display: flex;
+ gap: 10px;
+ background-color: hwb(34 84% 2%);
+ width: 30rem;
+ border-radius: 5px;
+
+}
+
+
+
+
+
+/* registertaion */
+
+
+
+.registration-form {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Qoraalka Sare */
+.registration-form h1 {
+  color: #1b3a5b;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 28px;
+}
+
+.registration-form .subtitle {
+  text-align: center;
+  color: #6c757d;
+  font-size: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+/* Xariiqda Oranji-ga ah ee hoosta ka muuqata */
+.registration-form .subtitle::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #ff8c00;
+  border-radius: 2px;
+}
+
+/* Grid-ka loo isticmaalayo 2 Column */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Qoraalka Label-ada */
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Input-yada iyo Select-ka */
+.input-group input[type="text"],
+.input-group input[type="number"] {
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #1b3a5b;
+  box-shadow: 0 0 0 3px rgba(27, 58, 91, 0.1);
+}
+
+/* Qaabeynta Radio Buttons-ka */
+.radio-group {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  accent-color: #1b3a5b; /* Midabka buluugga mugdiga ah marka la doorto */
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Qeybta Address-ka oo qaadanaysa meel dhan (Full width) */
+.full-width {
+  grid-column: span 2;
+}
+
+/* Badhanka Submit-ka */
+.submit-group {
+  margin-top: 30px;
+  text-align: right; /* Wuxuu dhigeysaa badhanka midigta */
+}
+
+.btn-submit {
+  background-color: #1b3a5b;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #122a44;
+}
+
+/* Marka shaashaddu yaraato (Mobile) */
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr; /* Hal column */
+  }
+  .full-width {
+    grid-column: span 1;
+  }
+  .submit-group {
+    text-align: center;
+  }
+  .btn-submit {
+    width: 100%;
+  }
+}
